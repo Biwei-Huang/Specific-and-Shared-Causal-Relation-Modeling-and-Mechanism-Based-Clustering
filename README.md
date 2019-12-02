@@ -25,7 +25,7 @@ function [W_hat, thetaW_hat,thetaE_hat, W_save,thetaW_save,thetaE_save,Q_save] =
   *   Q_save: estimated Q value in each iteration
 
 
-#### Main function for mechanism-based clustering
+#### Main function for mechanism-based clustering:
 function Pz = clustering_ins(Data,thetaW,thetaE,Mask,nZ)
 * INPUT: 
   *   Data: data from each subject are saved in a cell
@@ -39,6 +39,7 @@ function Pz = clustering_ins(Data,thetaW,thetaE,Mask,nZ)
 
 
 
-### Reference:
+### Citation:
+B. Huang, K. Zhang, P. Xie, M. Gong, E. Xing, C. Glymour. Specific and Shared Causal Relation Modeling and Mechanism-based Clustering. NeurIPS'19
 
-B. Huang, K. Zhang, P. Xie, M. Gong, E. Xing, C. Glymour. Specific and Shared Causal Relation Modeling and Mechanism-based Clustering. NeurIPS?19
+If there are any questons, please send emails to biweih@andrew.cmu.edu
