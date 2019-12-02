@@ -6,7 +6,7 @@ A unified framework for causal discovery and mechanism-based group identificatio
 see example.m
 
 ### IMPORTANT FUNCTIONS:
-# Main function for causal discovery: 
+#### Main function for causal discovery: 
 function [W_hat, thetaW_hat,thetaE_hat, W_save,thetaW_save,thetaE_save,Q_save] = SAEM_ins(Data,thetaW0,thetaE0,np,Mask)
 * INPUT: 
   *  Data: data from each subject are saved in a cell
@@ -25,7 +25,7 @@ function [W_hat, thetaW_hat,thetaE_hat, W_save,thetaW_save,thetaE_save,Q_save] =
   *   Q_save: estimated Q value in each iteration
 
 
-# Main function for mechanism-based clustering
+#### Main function for mechanism-based clustering
 function Pz = clustering_ins(Data,thetaW,thetaE,Mask,nZ)
 * INPUT: 
   *   Data: data from each subject are saved in a cell
